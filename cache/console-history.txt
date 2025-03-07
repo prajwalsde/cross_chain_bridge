@@ -1,0 +1,14 @@
+console.log(await contract.someFunction());
+const contract = await ethers.getContractAt("LockContract", "0x60a94d039024999EB7a30a66B8Cf8db07B2a59D2");
+console.log("Contract owner:", owner);
+const owner = await contract.owner();
+const contract = await ethers.getContractAt("LockContract", "0x60a94d039024999EB7a30a66B8Cf8db07B2a59D2");
+const { ethers } = require("hardhat");
+.help
+(await ethers.getSigners())[0].address
+npx hardhat node
+.exit
+.save
+(await ethers.getSigners())[0].address
+.editor
+.help
